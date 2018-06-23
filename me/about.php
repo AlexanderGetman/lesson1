@@ -10,7 +10,7 @@ $aboutme = 'Контент-менеджер, киноман, меломан'
 
 <!DOCTYPE>
 <html lang="ru">
-<head>
+  <head>
     <title><?= $name . ' – ' . $aboutme ?></title>
     <meta charset="utf-8">
     <style>
@@ -18,20 +18,20 @@ $aboutme = 'Контент-менеджер, киноман, меломан'
             font-family: sans-serif;
         }
     </style>
-</head>
-<body>
-<h1>Страница пользователя <?= $name ?></h1>
-<dl>
-    <dt>Имя</dt>
-    <dd><?= $name ?></dd>
-    <dt>Возраст</dt>
-    <dd><?= $age ?></dd>
-    <dt>Адрес электронной почты</dt>
-    <dd><a href="mailto:<?= $email ?>"><?= $email ?></a></dd>
-    <dt>Город</dt>
-    <dd><?= $adress ?></dd>
-    <dt>О себе</dt>
-    <dd><?= $aboutme ?></dd>
-</dl>
-</body>
+  </head>
+  <body>
+    <h1>Страница пользователя <?= $name ?></h1>
+      <dl>
+        <dt>Имя</dt>
+        <dd><?= $name ?></dd>
+        <dt>Возраст</dt>
+        <dd><?= $age ?></dd>
+        <dt>Адрес электронной почты</dt>
+        <dd><a href="mailto:<?= $email ?>"><?= $email ?></a></dd>
+        <dt>Город</dt>
+        <dd><?= $adress ?></dd>
+        <dt>О себе</dt>
+        <dd><?= $aboutme ?></dd>
+      </dl>
+  </body>
 </html>
