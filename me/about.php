@@ -5,7 +5,6 @@ $age = 29;
 $address = 'Владивосток';
 $email = 'alexander_getman@mail.ru';
 $aboutme = 'Контент-менеджер, киноман, меломан'
-
 ?>
 
 <!DOCTYPE>
