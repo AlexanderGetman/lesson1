@@ -2,7 +2,7 @@
 
 $name = 'Александр';
 $age = 29;
-$adress = 'Владивосток';
+$address = 'Владивосток';
 $email = 'alexander_getman@mail.ru';
 $aboutme = 'Контент-менеджер, киноман, меломан'
 
@@ -29,7 +29,7 @@ $aboutme = 'Контент-менеджер, киноман, меломан'
         <dt>Адрес электронной почты</dt>
         <dd><a href="mailto:<?= $email ?>"><?= $email ?></a></dd>
         <dt>Город</dt>
-        <dd><?= $adress ?></dd>
+        <dd><?= $address ?></dd>
         <dt>О себе</dt>
         <dd><?= $aboutme ?></dd>
       </dl>
